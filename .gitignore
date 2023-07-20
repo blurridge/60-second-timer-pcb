@@ -1,0 +1,15 @@
+*.*
+!*.sch
+!*.brd
+!*.docx
+!*.txt
+!*.lbr
+!.gitignore
+!*.gbr
+!*.sol
+!*.cmp
+!*.drd
+!*.plc
+!*.sts
+!*.stc
+!*.epf
