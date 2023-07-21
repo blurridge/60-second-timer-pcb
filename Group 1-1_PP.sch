@@ -18010,7 +18010,7 @@ TS-003</description>
 <packageinstance name="TO92"/>
 </packageinstances>
 </package3d>
-<package3d name="TO220H" urn="urn:adsk.eagle:package:41056971/3" type="model">
+<package3d name="TO220H" urn="urn:adsk.eagle:package:41056971/4" type="model">
 <description>TO-220</description>
 <packageinstances>
 <packageinstance name="TO220H"/>
@@ -18097,7 +18097,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="A1" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/4"/>
 </package3dinstances>
 <technologies>
 <technology name="05">
@@ -18786,7 +18786,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="IC10" library="linear" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:41056971/3" technology="05"/>
+<part name="IC10" library="linear" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:41056971/4" technology="05"/>
 <part name="HS1" library="to220-heatsink" library_urn="urn:adsk.eagle:library:41058283" deviceset="507302B00000G" device="" package3d_urn="urn:adsk.eagle:package:41058286/12"/>
 <part name="S1" library="switch-omron" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:41056974/2"/>
 <part name="S2" library="switch-omron" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:41056974/2"/>
