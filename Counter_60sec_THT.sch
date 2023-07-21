@@ -18616,6 +18616,113 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="to220-heatsink">
+<packages>
+<package name="TO-220H" urn="urn:adsk.eagle:footprint:41058284/9">
+<wire x1="-9.525" y1="0" x2="-7" y2="0" width="0.127" layer="21"/>
+<wire x1="-9.525" y1="0" x2="-9.525" y2="19.05" width="0.127" layer="21"/>
+<wire x1="9.525" y1="19.05" x2="9.525" y2="0" width="0.127" layer="21"/>
+<wire x1="-9.5" y1="1" x2="-7" y2="1" width="0.127" layer="21"/>
+<wire x1="-7" y1="1" x2="-5.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="1" x2="-3" y2="1" width="0.127" layer="21"/>
+<wire x1="-7" y1="1" x2="-7" y2="0" width="0.127" layer="21"/>
+<wire x1="-7" y1="0" x2="-5.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="0" x2="-5.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="-3" y2="0.25" width="0.127" layer="21"/>
+<wire x1="-3" y1="0.25" x2="-3" y2="1" width="0.127" layer="21"/>
+<wire x1="9.5" y1="1" x2="6.9" y2="1" width="0.127" layer="21"/>
+<wire x1="6.9" y1="1" x2="6.9" y2="0" width="0.127" layer="21"/>
+<wire x1="6.9" y1="0" x2="9.5" y2="0" width="0.127" layer="21"/>
+<wire x1="5.25" y1="0" x2="2.9" y2="0" width="0.127" layer="21"/>
+<wire x1="2.9" y1="0" x2="2.9" y2="0.3" width="0.127" layer="21"/>
+<wire x1="2.9" y1="0.3" x2="2.9" y2="1" width="0.127" layer="21"/>
+<wire x1="2.9" y1="1" x2="5.25" y2="1" width="0.127" layer="21"/>
+<wire x1="5.25" y1="1" x2="5.25" y2="0" width="0.127" layer="21"/>
+<wire x1="1.15" y1="0" x2="-1.1" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0" x2="-1.1" y2="0.25" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.25" x2="-1.1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="1" x2="1.15" y2="1" width="0.127" layer="21"/>
+<wire x1="1.15" y1="1" x2="1.15" y2="0" width="0.127" layer="21"/>
+<wire x1="-3" y1="0.25" x2="-1.1" y2="0.25" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.15" y1="0.3" x2="2.9" y2="0.3" width="0.127" layer="21" curve="-180"/>
+<wire x1="5.25" y1="0.35" x2="6.9" y2="0.35" width="0.127" layer="21" curve="-180"/>
+<wire x1="-9.525" y1="18.04" x2="-7" y2="18.04" width="0.127" layer="21"/>
+<wire x1="-9.5" y1="19.04" x2="-7" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-7" y1="19.04" x2="-5.5" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="19.04" x2="-3" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-7" y1="19.04" x2="-7" y2="18.04" width="0.127" layer="21"/>
+<wire x1="-7" y1="18.04" x2="-5.5" y2="18.04" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="18.04" x2="-5.5" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="18.04" x2="-3" y2="18.04" width="0.127" layer="21"/>
+<wire x1="-3" y1="18.04" x2="-3" y2="18.29" width="0.127" layer="21"/>
+<wire x1="-3" y1="18.29" x2="-3" y2="19.04" width="0.127" layer="21"/>
+<wire x1="9.5" y1="19.04" x2="6.9" y2="19.04" width="0.127" layer="21"/>
+<wire x1="6.9" y1="19.04" x2="6.9" y2="18.04" width="0.127" layer="21"/>
+<wire x1="6.9" y1="18.04" x2="9.5" y2="18.04" width="0.127" layer="21"/>
+<wire x1="5.25" y1="18.04" x2="2.9" y2="18.04" width="0.127" layer="21"/>
+<wire x1="2.9" y1="18.04" x2="2.9" y2="18.34" width="0.127" layer="21"/>
+<wire x1="2.9" y1="18.34" x2="2.9" y2="19.04" width="0.127" layer="21"/>
+<wire x1="2.9" y1="19.04" x2="5.25" y2="19.04" width="0.127" layer="21"/>
+<wire x1="5.25" y1="19.04" x2="5.25" y2="18.04" width="0.127" layer="21"/>
+<wire x1="1.15" y1="18.04" x2="-1.1" y2="18.04" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="18.04" x2="-1.1" y2="18.29" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="18.29" x2="-1.1" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="19.04" x2="1.15" y2="19.04" width="0.127" layer="21"/>
+<wire x1="1.15" y1="19.04" x2="1.15" y2="18.04" width="0.127" layer="21"/>
+<wire x1="6.9" y1="18.59" x2="5.25" y2="18.59" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.86" y1="18.59" x2="1.21" y2="18.59" width="0.127" layer="21" curve="-180"/>
+<wire x1="-1.09" y1="18.72" x2="-2.99" y2="18.72" width="0.127" layer="21" curve="-180"/>
+<hole x="-3.875" y="9.525" drill="3.81"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO-220H" urn="urn:adsk.eagle:package:41058286/10" type="model">
+<packageinstances>
+<packageinstance name="TO-220H"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="HEATSINK">
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="4.445" y2="5.08" width="0.254" layer="94"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.27" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.27" x2="3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.175" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="5.08" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-4.445" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<text x="5.715" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.715" y="0.635" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="507302B00000G" prefix="HS">
+<gates>
+<gate name="G$1" symbol="HEATSINK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220H">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41058286/10"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18683,6 +18790,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="IC10" library="linear" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:41056971/2" technology="05"/>
 <part name="S1" library="switch-omron" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:41056974/2"/>
 <part name="S2" library="switch-omron" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:41056974/2"/>
+<part name="HS1" library="to220-heatsink" deviceset="507302B00000G" device="" package3d_urn="urn:adsk.eagle:package:41058286/10"/>
 </parts>
 <sheets>
 <sheet>
@@ -19343,6 +19451,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <text x="104.14" y="55.88" size="1.778" layer="94">switch debounce circuit</text>
 <text x="109.22" y="76.2" size="1.778" layer="94">Schmitt trigger inverter</text>
 <text x="160.02" y="83.82" size="1.778" layer="94">J-K Flip-Flop</text>
+<text x="12.7" y="27.94" size="2.54" layer="94">HEATSINK FOR 7805T</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -19426,6 +19535,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="S2" gate="1" x="144.78" y="142.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="142.24" y="148.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.955" y="146.05" size="1.778" layer="96"/>
+</instance>
+<instance part="HS1" gate="G$1" x="22.86" y="17.78" smashed="yes">
+<attribute name="NAME" x="28.575" y="20.955" size="1.778" layer="95"/>
+<attribute name="VALUE" x="28.575" y="18.415" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
