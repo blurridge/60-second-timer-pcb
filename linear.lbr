@@ -4952,7 +4952,7 @@ square</description>
 <packageinstance name="SIP11"/>
 </packageinstances>
 </package3d>
-<package3d name="TO220H" urn="urn:adsk.eagle:package:41056971/3" type="model">
+<package3d name="TO220H" urn="urn:adsk.eagle:package:41056971/4" type="model">
 <description>TO-220</description>
 <packageinstances>
 <packageinstance name="TO220H"/>
@@ -20197,7 +20197,7 @@ Source: &lt;a href="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL
 <connect gate="A1" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/4"/>
 </package3dinstances>
 <technologies>
 <technology name="05">
@@ -20283,7 +20283,7 @@ Source: &lt;a href="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL
 <connect gate="A1" pin="VO" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -20336,7 +20336,7 @@ Source: &lt;a href="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL
 <connect gate="A1" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -20493,7 +20493,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <connect gate="A" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/4"/>
 </package3dinstances>
 <technologies>
 <technology name="05">
@@ -20892,7 +20892,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="A1" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/4"/>
 </package3dinstances>
 <technologies>
 <technology name="05">
