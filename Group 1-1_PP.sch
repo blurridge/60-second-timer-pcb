@@ -17878,7 +17878,7 @@ single cathode, 13 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-jack" urn="urn:adsk.eagle:library:154">
+<library name="con-jack">
 <description>&lt;b&gt;Jacks&lt;/b&gt;&lt;p&gt;
 Power Connectors&lt;br&gt;
 Phone Connectors&lt;br&gt;
@@ -18005,7 +18005,7 @@ Created by Robert Siegler</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SPC4078" urn="urn:adsk.eagle:package:7494/1" type="box" library_version="2">
+<package3d name="SPC4078" urn="urn:adsk.eagle:package:41056880/2" type="model">
 <description>DC POWER JACK 2.5mm Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals
 Source: www.spctechnology.com .. 84N1162.pdf
 Distributor: Farnell (www.Farnell.de)
@@ -18025,7 +18025,7 @@ Created by Robert Siegler</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="JACK-PLUG" urn="urn:adsk.eagle:symbol:7487/1" library_version="2">
+<symbol name="JACK-PLUG">
 <wire x1="-5.715" y1="1.27" x2="-5.715" y2="3.81" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-5.715" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
@@ -18052,7 +18052,7 @@ Created by Robert Siegler</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JACK-PLUG" urn="urn:adsk.eagle:component:7496/2" prefix="J" uservalue="yes" library_version="2">
+<deviceset name="JACK-PLUG" prefix="J" uservalue="yes">
 <description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;br&gt;
 Power Jack, DC, Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
 Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
@@ -18070,7 +18070,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7494/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056880/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -18237,7 +18237,7 @@ TS-003</description>
 <packageinstance name="TO92"/>
 </packageinstances>
 </package3d>
-<package3d name="TO220H" urn="urn:adsk.eagle:package:41056971/2" type="model">
+<package3d name="TO220H" urn="urn:adsk.eagle:package:41056971/3" type="model">
 <description>TO-220</description>
 <packageinstances>
 <packageinstance name="TO220H"/>
@@ -18324,7 +18324,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="A1" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056971/3"/>
 </package3dinstances>
 <technologies>
 <technology name="05">
@@ -18486,7 +18486,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch-omron" urn="urn:adsk.eagle:library:377">
+<library name="switch-omron">
 <description>&lt;b&gt;Omron Switches&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -18555,7 +18555,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="B3F-10XX" urn="urn:adsk.eagle:package:27496/1" type="box" library_version="3">
+<package3d name="B3F-10XX" urn="urn:adsk.eagle:package:41056974/2" type="model">
 <description>OMRON SWITCH</description>
 <packageinstances>
 <packageinstance name="B3F-10XX"/>
@@ -18563,7 +18563,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="TS2" urn="urn:adsk.eagle:symbol:27469/1" library_version="3">
+<symbol name="TS2">
 <wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
@@ -18586,7 +18586,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="10-XX" urn="urn:adsk.eagle:component:27498/2" prefix="S" uservalue="yes" library_version="3">
+<deviceset name="10-XX" prefix="S" uservalue="yes">
 <description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="TS2" x="0" y="0"/>
@@ -18600,7 +18600,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="1" pin="S1" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41056974/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -18616,9 +18616,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="to220-heatsink" urn="urn:adsk.eagle:library:41059482">
+<library name="to220-heatsink">
 <packages>
-<package name="TO-220H" urn="urn:adsk.eagle:footprint:41058284/10" library_version="1">
+<package name="TO-220H" urn="urn:adsk.eagle:footprint:41058284/10" locally_modified="yes">
 <description>TO220H HEATSINK</description>
 <wire x1="-9.525" y1="0" x2="-7" y2="0" width="0.127" layer="21"/>
 <wire x1="-9.525" y1="0" x2="-9.525" y2="19.05" width="0.127" layer="21"/>
@@ -18671,11 +18671,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="6.9" y1="18.59" x2="5.25" y2="18.59" width="0.127" layer="21" curve="-180"/>
 <wire x1="2.86" y1="18.59" x2="1.21" y2="18.59" width="0.127" layer="21" curve="-180"/>
 <wire x1="-1.09" y1="18.72" x2="-2.99" y2="18.72" width="0.127" layer="21" curve="-180"/>
-<circle x="-3.875" y="9.525" radius="1.79605" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.875" y="9.525" drill="3.81"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="TO-220H" urn="urn:adsk.eagle:package:41058286/11" type="model" library_version="1">
+<package3d name="TO-220H" urn="urn:adsk.eagle:package:41058286/11" type="model">
 <description>TO220H HEATSINK</description>
 <packageinstances>
 <packageinstance name="TO-220H"/>
@@ -18683,7 +18683,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="HEATSINK" urn="urn:adsk.eagle:symbol:41059483/1" library_version="1">
+<symbol name="HEATSINK">
 <wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="4.445" y2="5.08" width="0.254" layer="94"/>
@@ -18705,7 +18705,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="507302B00000G" urn="urn:adsk.eagle:component:41059484/1" prefix="HS" library_version="1">
+<deviceset name="507302B00000G" prefix="HS">
 <description>TO220H HEATSINK</description>
 <gates>
 <gate name="G$1" symbol="HEATSINK" x="0" y="0"/>
@@ -18786,11 +18786,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J1" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1"/>
-<part name="IC10" library="linear" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:41056971/2" technology="05"/>
-<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="HS1" library="to220-heatsink" library_urn="urn:adsk.eagle:library:41059482" deviceset="507302B00000G" device="" package3d_urn="urn:adsk.eagle:package:41058286/11"/>
+<part name="J1" library="con-jack" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:41056880/2"/>
+<part name="IC10" library="linear" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:41056971/3" technology="05"/>
+<part name="S1" library="switch-omron" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:41056974/2"/>
+<part name="S2" library="switch-omron" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:41056974/2"/>
+<part name="HS1" library="to220-heatsink" deviceset="507302B00000G" device="" package3d_urn="urn:adsk.eagle:package:41058286/11"/>
 </parts>
 <sheets>
 <sheet>
