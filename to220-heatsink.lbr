@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,7 +73,8 @@
 </layers>
 <library>
 <packages>
-<package name="TO-220H" urn="urn:adsk.eagle:footprint:41058284/9">
+<package name="TO-220H" urn="urn:adsk.eagle:footprint:41058284/10">
+<description>TO220H HEATSINK</description>
 <wire x1="-9.525" y1="0" x2="-7" y2="0" width="0.127" layer="21"/>
 <wire x1="-9.525" y1="0" x2="-9.525" y2="19.05" width="0.127" layer="21"/>
 <wire x1="9.525" y1="19.05" x2="9.525" y2="0" width="0.127" layer="21"/>
@@ -110,29 +111,27 @@
 <wire x1="-7" y1="18.04" x2="-5.5" y2="18.04" width="0.127" layer="21"/>
 <wire x1="-5.5" y1="18.04" x2="-5.5" y2="19.04" width="0.127" layer="21"/>
 <wire x1="-5.5" y1="18.04" x2="-3" y2="18.04" width="0.127" layer="21"/>
-<wire x1="-3" y1="18.04" x2="-3" y2="18.29" width="0.127" layer="21"/>
-<wire x1="-3" y1="18.29" x2="-3" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-3" y1="18.04" x2="-3" y2="19.04" width="0.127" layer="21"/>
 <wire x1="9.5" y1="19.04" x2="6.9" y2="19.04" width="0.127" layer="21"/>
 <wire x1="6.9" y1="19.04" x2="6.9" y2="18.04" width="0.127" layer="21"/>
 <wire x1="6.9" y1="18.04" x2="9.5" y2="18.04" width="0.127" layer="21"/>
 <wire x1="5.25" y1="18.04" x2="2.9" y2="18.04" width="0.127" layer="21"/>
-<wire x1="2.9" y1="18.04" x2="2.9" y2="18.34" width="0.127" layer="21"/>
-<wire x1="2.9" y1="18.34" x2="2.9" y2="19.04" width="0.127" layer="21"/>
+<wire x1="2.9" y1="18.04" x2="2.9" y2="19.04" width="0.127" layer="21"/>
 <wire x1="2.9" y1="19.04" x2="5.25" y2="19.04" width="0.127" layer="21"/>
 <wire x1="5.25" y1="19.04" x2="5.25" y2="18.04" width="0.127" layer="21"/>
 <wire x1="1.15" y1="18.04" x2="-1.1" y2="18.04" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="18.04" x2="-1.1" y2="18.29" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="18.29" x2="-1.1" y2="19.04" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="18.04" x2="-1.1" y2="19.04" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="19.04" x2="1.15" y2="19.04" width="0.127" layer="21"/>
 <wire x1="1.15" y1="19.04" x2="1.15" y2="18.04" width="0.127" layer="21"/>
 <wire x1="6.9" y1="18.59" x2="5.25" y2="18.59" width="0.127" layer="21" curve="-180"/>
 <wire x1="2.86" y1="18.59" x2="1.21" y2="18.59" width="0.127" layer="21" curve="-180"/>
 <wire x1="-1.09" y1="18.72" x2="-2.99" y2="18.72" width="0.127" layer="21" curve="-180"/>
-<hole x="-3.875" y="9.525" drill="3.81"/>
+<circle x="-3.875" y="9.525" radius="1.79605" width="0.2032" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="TO-220H" urn="urn:adsk.eagle:package:41058286/10" type="model">
+<package3d name="TO-220H" urn="urn:adsk.eagle:package:41058286/11" type="model">
+<description>TO220H HEATSINK</description>
 <packageinstances>
 <packageinstance name="TO-220H"/>
 </packageinstances>
@@ -162,13 +161,14 @@
 </symbols>
 <devicesets>
 <deviceset name="507302B00000G" prefix="HS">
+<description>TO220H HEATSINK</description>
 <gates>
 <gate name="G$1" symbol="HEATSINK" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220H">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41058286/10"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41058286/11"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
